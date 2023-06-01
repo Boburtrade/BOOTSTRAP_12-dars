@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/praktika.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary my-5" data-placement="top" data-toggle="popover" title="popover title" data-content="Lorem ipsum dolor sit amet.">
+                Popover
+            </button>
+            <button type="button" class="btn btn-success my-5" data-placement="top" data-toggle="popover" title="popover title" data-content="Lorem ipsum dolor sit amet.">
+                Another Popover
+            </button>
+            <button type="button" class="btn btn-info my-5" data-placement="top" data-toggle="popover" title="popover title" data-content="Lorem ipsum dolor sit amet.">
+               Larger Popover
+            </button>
+            <button type="button" class="btn btn-warning my-5" data-placement="top" data-toggle="popover" title="popover title" data-content="Lorem ipsum dolor sit amet.">
+               Last Popover
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-danger my-5" data-placement="bottom" data-toggle="tooltip" title="A demo of left tooltip">
+                Left  Demo
+            </button>
+            <button type="button" class="btn btn-success my-5" data-placement="bottom" data-toggle="tooltip" title="A demo of bottom tooltip">
+                Bottom Demo
+            </button>
+            <button type="button" class="btn btn-warning my-5" data-placement="bottom" data-toggle="tooltip" title="A demo of right tooltip">
+                 Right Demo
+            </button>
+            <button type="button" class="btn btn-primary my-5" data-placement="bottom" data-toggle="tooltip" title="A demo of top tooltip">
+                 Top Demo
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-outline-primary">
+                Proteins
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+                Plasmids
+            </button>
+            <button type="button" class="btn btn-outline-primary">
+                Primers
+            </button>
+            <button type="button" class="btn btn-outline-primary" data-placement="bottom" data-toggle="popover" title="Popover examples 2 - title" data-content="Popover examples 2 - Content">
+                <img src="https://cdn-icons-png.flaticon.com/512/206/206891.png" style="width: 30px; height: 30px" alt="">
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <p>My formular with tooltip/popover</p>
+                </div>
+                <div class="card-body">
+                    <form action="#">
+                        <label for="a" class="font-weight-bold">Tooltip example</label>
+                        <input type="text" class="form-control" id="a" data-placement="right" data-toggle="tooltip" title="
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, vitae.">
+                        <label for="av" class="font-weight-bold">Popover example</label>
+                        <input type="text" class="form-control" id="av">
+                        <img src="https://www.svgrepo.com/download/73694/question-mark.svg" style="width: 15px; height: 15px; margin-top: -65px; margin-left: 500px" alt=""  data-placement="right" data-toggle="popover" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, vitae.">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-1">
+            <button type="button" class="btn my-2">
+                <img src="https://image.shutterstock.com/image-vector/trash-bin-line-simple-icon-260nw-691267300.jpg" style="height: 30px; width: 30px" alt="" data-target="#m" data-toggle="modal">
+            </button>
+            <div class="modal" id="m" data-toggle="popover" data-placement="right">
+                <div class="modal-header">
+                    Delete item
+                </div>
+                <div class="modal-body">
+                    Are you sure?
+                    <button type="button" class="btn">Yes</button>
+                    <button type="button" class="btn">No</button>
+                </div>
+            </div>
+            <button type="button" class="btn my-2">
+                <img src="https://image.shutterstock.com/image-vector/trash-bin-line-simple-icon-260nw-691267300.jpg" style="height: 30px; width: 30px" alt="">
+            </button>
+            <button type="button" class="btn my-2">
+                <img src="https://image.shutterstock.com/image-vector/trash-bin-line-simple-icon-260nw-691267300.jpg" style="height: 30px; width: 30px" alt="">
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
